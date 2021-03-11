@@ -1,0 +1,5 @@
+File : 101_time_no_guess_to_10-10-000_trapezoid-16_nodes 
+Method for iter 1 : trapezoid 	medium accuracy 	16 segments	 	 	Final objVal : 2.230208 
+ Final traj timestep : 0.148681 
+ Computation Time : 16.472013 
+ 

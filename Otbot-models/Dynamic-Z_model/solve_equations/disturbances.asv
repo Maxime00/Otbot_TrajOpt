@@ -1,0 +1,16 @@
+function D = disturbances(t)
+%DISTURBANCES
+% Adds a disturbing force D to the system between t1 and t2
+% Fx and Fy are the forces exerted in x and y respectively
+
+D = zeros(6,1);
+
+Fx = 12 ; % Newton
+Fy = 18 ; 
+
+t1 = 1.5 ; %seconds
+t2 = 3
+
+
+end
+

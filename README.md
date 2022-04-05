@@ -1,5 +1,5 @@
 # Otbot_TrajOpt
-Trajectory optimization for omnidirectional tire-wheeled robot. Complete system dynamics are available, with a wrapper to model any constraints into the optimization scheme.
+This repository contains code for trajectory optimization for an omnidirectional tire-wheeled robot. Complete system dynamics are available, with a wrapper to model any constraints into the optimization scheme. All research was done as part of my master thesis in robotic engineering, the report of which can be found here.
 
 # Otbot-models
 The complete kinematic and dynamic models for the Otbot can be found in the folder Otbot-models.
@@ -11,8 +11,8 @@ It includes everything necessary to create any desired scenario and comptue opti
 
 ## Main
 To compute a trajectory, simply run the MAIN_loop.m with your desired parameters. 
-This fucntion is designed to run several optimizations in a row, for each set of parameters provided.
-A list of possibe plots is also available.
+This function is designed to run several optimizations in a row, for each set of parameters provided.
+A list of possible plots is also available.
 
 ## Obstacles
 To model obstacles, use the files in the Obstacles folder. The number of obstacles must be provided accurately for the optimization to run.
@@ -22,5 +22,5 @@ To make videos of simulation, use the RESULTS_makeplots.m function. Simply provi
 A list of possibe plots is also available.
 
 # IMPORTANT
-current folder must be Otbot-TrajOpt when running to save files in correct emplacement. OptimTraj and OTbot folder must both be added to matlab path.
+Current folder must be Otbot-TrajOpt when running to save files in correct emplacement. OptimTraj and OTbot folder must both be added to matlab path.
 All results will be saved in the Otbot/Results folder.

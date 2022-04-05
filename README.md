@@ -3,11 +3,11 @@ Trajectory optimization for omnidirectional tire-wheeled robot. Complete system 
 
 # Otbot-models
 The complete kinematic and dynamic models for the Otbot can be found in the folder Otbot-models.
-The Results and model fodler mus tbe added to path before running.
+The Results and model folder must be added to path before running.
 
 #Otbot-TrajOpt
 A wrapper of the OptimTraj library for the Otbot can be found in the OtbotTrajOpt/Otbot folder. 
-It includes everythign necessary to create any desired scenario and comptue optimal trajectories using direct collocation as implemented in OptimTraj.
+It includes everything necessary to create any desired scenario and comptue optimal trajectories using direct collocation as implemented in OptimTraj.
 
 ## Main
 To compute a trajectory, simply run the MAIN_loop.m with your desired parameters. 
@@ -18,7 +18,7 @@ A list of possibe plots is also available.
 To model obstacles, use the files in the Obstacles folder. The number of obstacles must be provided accurately for the optimization to run.
  
 ## Videos
-To make videos of simulaiton, use the RESULTS_makeplots.m function. Simply provide the name of your solution and put 'yes' for the make_video variable.
+To make videos of simulation, use the RESULTS_makeplots.m function. Simply provide the name of your solution and put 'yes' for the make_video variable.
 A list of possibe plots is also available.
 
 #IMPORTANT
